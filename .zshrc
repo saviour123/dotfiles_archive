@@ -8,7 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
-#sample themes: alanpeabody, arrow, bira, blinks, bureau, clean
+#ZSH_THEME="agnoster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -83,7 +83,11 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
-
-export NVM_DIR="/home/sav/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias py=python
+alias m="mkdir"
+alias docker="sudo docker"
+alias dc="sudo docker"
+alias server="python -m SimpleHTTPServer"
+alias update='sudo apt-get update'
+alias install='sudo apt-get install'

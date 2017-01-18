@@ -1,18 +1,18 @@
 # Vim backup cp ~/.vimrc .
 cp -r ~/.vim/colors/* .vim/colors/.
-cp ~/.vimrc .
+cp ~/.vimrc ~/github/dotfiles
 
 # .i3 backup
-cp -r ~/.i3/* .i3/.
+cp -r ~/.i3/ ~/github/dotfiles
 
 # Xresources
-cp ~/.Xresources .
-cp ~/.xinitrc .
+cp ~/.Xresources ~/github/dotfiles
+cp ~/.xinitrc ~/github/dotfiles
 
 # zshrc
-cp -r ~/.zshrc .
+cp -r ~/.zshrc ~/github/dotfiles
 
 # bashrc
 
-cp ~/.bashrc .
+cp ~/.bashrc ~/github/dotfiles
 
