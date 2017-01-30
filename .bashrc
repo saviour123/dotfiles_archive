@@ -113,3 +113,9 @@ if ! shopt -oq posix; then
   fi
 fi
 [ -r /home/sav/.byobu/prompt ] && . /home/sav/.byobu/prompt   #byobu-prompt#
+
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/sav/anaconda3/bin:$PATH"
+
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/sav/anaconda3/bin:$PATH"

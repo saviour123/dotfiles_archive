@@ -27,6 +27,7 @@ call vundle#begin()
     Plugin 'scrooloose/nerdtree'                " Project and file navigation
     Plugin 'majutsushi/tagbar'                  " Class/module browser
     Plugin 'kien/ctrlp.vim'                     " Fast transitions on project files
+    
 
     "-------------------=== Other ===-------------------------------
     Plugin 'bling/vim-airline'                  " Lean & mean status/tabline for vim
@@ -48,19 +49,25 @@ call vundle#begin()
     Plugin 'mitsuhiko/vim-sparkup'              " Sparkup(XML/jinja/htlm-django/etc.) support
     Plugin 'Rykka/riv.vim'                      " ReStructuredText plugin
     Plugin 'Valloric/YouCompleteMe'             " Autocomplete plugin
-    Plugin 'tpope/vim-markdown'                 " Markdown Support
-    Plugin 'mitsuhiko/flask'                    " Flask Support
-    Plugin 'pangloss/vim-javascript'            " Syntax Highlighting for Javascript
-    Plugin 'mxw/vim-jsx'                        " Syntax and Indentind for JS
 
     "-------------------=== Python  ===-----------------------------
     Plugin 'klen/python-mode'                   " Python mode (docs, refactor, lints...)
     Plugin 'scrooloose/syntastic'               " Syntax checking plugin for Vim
+    
+    "-------------------=== Brackets and Quotes ===----------------
+    Plugin 'Raimondi/delimitMate'
+    Plugin 'shime/vim-livedown'
+    
+    " Add surrounding pairs: brackets, parentheses, quotes, tags etc
+    Plugin 'terryma/vim-multiple-cursors'
 
-    "-------------------=== Saviour's Addition ===-------------------
- 
-
-
+    " Plugin 'glench/vim-jinja2-syntax'
+    Plugin 'mitsuhiko/vim-jinja'
+    Plugin 'jmcantrell/vim-virtualenv'
+    Plugin 'nvie/vim-flake8'
+    Plugin 'vim-scripts/indentpython.vim'
+    Plugin 'davidhalter/jedi-vim'
+    Plugin 'mitsuhiko/flask'
 
 call vundle#end()                           " required
 filetype on

@@ -91,3 +91,7 @@ alias dc="sudo docker"
 alias server="python -m SimpleHTTPServer"
 alias update='sudo apt-get update'
 alias install='sudo apt-get install'
+
+
+# added by Anaconda3 4.2.0 installer
+export PATH="/home/sav/anaconda3/bin:$PATH"
