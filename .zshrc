@@ -7,8 +7,9 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
-#ZSH_THEME="agnoster"
+#ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
+#ZSH_THEME="bira"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -91,7 +92,11 @@ alias dc="sudo docker"
 alias server="python -m SimpleHTTPServer"
 alias update='sudo apt-get update'
 alias install='sudo apt-get install'
+alias nautilus='nautilus --no-desktop'
+alias hibernate='sudo pm-hibernate'
 
 
 # added by Anaconda3 4.2.0 installer
 export PATH="/home/sav/anaconda3/bin:$PATH"
+
+DEFAULT_USER='sav'

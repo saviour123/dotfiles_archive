@@ -68,7 +68,7 @@ call vundle#begin()
     Plugin 'vim-scripts/indentpython.vim'
     Plugin 'davidhalter/jedi-vim'
     Plugin 'mitsuhiko/flask'
-
+    Plugin 'mattn/emmet-vim'                " html code completion
 call vundle#end()                           " required
 filetype on
 filetype plugin on
@@ -250,3 +250,6 @@ let g:ycm_confirm_extra_conf=0
 
 nmap <leader>g :YcmCompleter GoTo<CR>
 nmap <leader>d :YcmCompleter GoToDefinition<CR>
+
+au FileType python setlocal formatprg=autopep8\ -
+
